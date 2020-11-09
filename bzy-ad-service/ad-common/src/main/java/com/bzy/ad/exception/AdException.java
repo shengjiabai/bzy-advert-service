@@ -1,0 +1,9 @@
+package com.bzy.ad.exception;
+
+
+public class AdException extends Exception {
+
+    public AdException(String message) {
+        super(message);
+    }
+}
